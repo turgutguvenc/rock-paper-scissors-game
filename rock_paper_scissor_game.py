@@ -53,4 +53,7 @@ elif (player_choice == '2') and  (str(random_choice) == '0'):
   print(f"{scissors} \n {rock}\n COMPUTER WIN")
 
 elif (player_choice == '2') and  (str(random_choice) == '1'):
-  print(f"{scissors} \n {paper}\n YOU WIN")  
+  print(f"{scissors} \n {paper}\n YOU WIN")
+
+else:
+  print("Please follow the game instructions!!!!")    
